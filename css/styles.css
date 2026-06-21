@@ -1059,8 +1059,8 @@ textarea {
   .hero {
     min-height: 560px;
     background:
-      linear-gradient(0deg, rgba(8, 47, 85, 0.96) 0%, rgba(8, 47, 85, 0.9) 58%, rgba(8, 47, 85, 0.55) 100%),
-      image-set(url("../assets/images/hero-bg-mobile.jpg") 1x);
+      linear-gradient(0deg, rgba(7, 45, 82, 0.98) 0%, rgba(7, 45, 82, 0.95) 56%, rgba(7, 45, 82, 0.9) 100%),
+      image-set(url("../assets/images/hero-bg-mobile-clean.jpg") 1x);
     background-position: center;
   }
 
