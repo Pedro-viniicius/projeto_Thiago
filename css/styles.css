@@ -272,8 +272,9 @@ textarea {
   color: var(--white);
   background:
     linear-gradient(90deg, rgba(8, 47, 85, 0.94) 0%, rgba(8, 47, 85, 0.86) 42%, rgba(8, 47, 85, 0.28) 100%),
-    image-set(url("../assets/images/hero-dr-thiago-real.jpg") 1x);
+    image-set(url("../assets/images/hero-bg-desktop.jpg") 1x);
   background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
 }
 
@@ -990,12 +991,16 @@ textarea {
     min-height: 640px;
     background:
       linear-gradient(90deg, rgba(8, 47, 85, 0.96) 0%, rgba(8, 47, 85, 0.86) 58%, rgba(8, 47, 85, 0.42) 100%),
-      image-set(url("../assets/images/hero-dr-thiago-real.jpg") 1x);
-    background-position: 62% center;
+      image-set(url("../assets/images/hero-bg-desktop.jpg") 1x);
+    background-position: center;
   }
 
   .hero-content {
     padding-block: 76px 58px;
+  }
+
+  h1 {
+    font-size: 3rem;
   }
 
   .intro-grid,
@@ -1055,8 +1060,8 @@ textarea {
     min-height: 560px;
     background:
       linear-gradient(0deg, rgba(8, 47, 85, 0.96) 0%, rgba(8, 47, 85, 0.9) 58%, rgba(8, 47, 85, 0.55) 100%),
-      image-set(url("../assets/images/hero-dr-thiago-real.jpg") 1x);
-    background-position: 58% center;
+      image-set(url("../assets/images/hero-bg-mobile.jpg") 1x);
+    background-position: center;
   }
 
   .hero-content {
