@@ -245,6 +245,18 @@ textarea {
   box-shadow: 0 16px 34px rgba(8, 47, 85, 0.18);
 }
 
+.btn-map {
+  min-height: 42px;
+  padding: 10px 15px;
+  color: var(--white);
+  border-color: rgba(255, 255, 255, 0.34);
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.btn-map:hover {
+  background: rgba(255, 255, 255, 0.18);
+}
+
 .btn-small {
   min-height: 42px;
   padding: 10px 16px;
@@ -260,7 +272,7 @@ textarea {
   color: var(--white);
   background:
     linear-gradient(90deg, rgba(8, 47, 85, 0.94) 0%, rgba(8, 47, 85, 0.86) 42%, rgba(8, 47, 85, 0.28) 100%),
-    image-set(url("../assets/images/hero-dr-thiago-pet.jpg") 1x);
+    image-set(url("../assets/images/hero-dr-thiago-real.jpg") 1x);
   background-position: center;
   background-size: cover;
 }
@@ -558,6 +570,57 @@ h3 {
   border-top-color: var(--yellow-500);
 }
 
+.section-gallery {
+  background: linear-gradient(180deg, var(--white) 0%, var(--warm) 100%);
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: 1.2fr repeat(2, 1fr);
+  gap: 18px;
+}
+
+.gallery-grid figure {
+  position: relative;
+  overflow: hidden;
+  min-height: 270px;
+  margin: 0;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--white);
+  box-shadow: 0 14px 32px rgba(8, 47, 85, 0.08);
+}
+
+.gallery-grid img {
+  width: 100%;
+  height: 100%;
+  min-height: 270px;
+  object-fit: cover;
+}
+
+.gallery-feature {
+  grid-row: span 2;
+  min-height: 558px;
+}
+
+.gallery-feature img {
+  min-height: 558px;
+  object-position: left center;
+}
+
+.gallery-grid figcaption {
+  position: absolute;
+  left: 14px;
+  right: 14px;
+  bottom: 14px;
+  padding: 10px 12px;
+  color: var(--white);
+  background: rgba(8, 47, 85, 0.82);
+  border-radius: var(--radius);
+  font-size: 0.88rem;
+  font-weight: 800;
+}
+
 .lead-section {
   color: var(--white);
   background: var(--blue-900);
@@ -590,6 +653,32 @@ h3 {
 
 .lead-copy .btn {
   margin-top: 12px;
+}
+
+.contact-stack {
+  display: grid;
+  gap: 10px;
+  margin-top: 24px;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: var(--radius);
+}
+
+.contact-stack p {
+  margin: 0;
+}
+
+.contact-stack a {
+  color: var(--white);
+  font-weight: 900;
+}
+
+.contact-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 6px;
 }
 
 .note {
@@ -666,7 +755,7 @@ textarea {
 
 .testimonial-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 18px;
 }
 
@@ -683,6 +772,13 @@ textarea {
   font-size: 0.82rem;
   font-weight: 950;
   text-transform: uppercase;
+}
+
+.testimonial-card strong {
+  display: block;
+  margin-top: 18px;
+  color: var(--blue-900);
+  font-size: 0.92rem;
 }
 
 .faq-layout {
@@ -804,6 +900,29 @@ textarea {
   font-size: 0.9rem;
 }
 
+.floating-whatsapp {
+  position: fixed;
+  right: 18px;
+  bottom: 18px;
+  z-index: 45;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 50px;
+  padding: 0 18px;
+  color: var(--white);
+  background: var(--green-600);
+  border: 2px solid rgba(255, 255, 255, 0.92);
+  border-radius: 999px;
+  box-shadow: 0 14px 34px rgba(19, 137, 75, 0.34);
+  font-size: 0.92rem;
+  font-weight: 950;
+}
+
+.floating-whatsapp:hover {
+  transform: translateY(-1px);
+}
+
 @media (max-width: 1060px) {
   h1 {
     font-size: 3.35rem;
@@ -817,8 +936,22 @@ textarea {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .benefit-grid {
+  .benefit-grid,
+  .testimonial-grid {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .gallery-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .gallery-feature {
+    grid-row: span 1;
+  }
+
+  .gallery-feature,
+  .gallery-feature img {
+    min-height: 360px;
   }
 }
 
@@ -857,7 +990,7 @@ textarea {
     min-height: 640px;
     background:
       linear-gradient(90deg, rgba(8, 47, 85, 0.96) 0%, rgba(8, 47, 85, 0.86) 58%, rgba(8, 47, 85, 0.42) 100%),
-      image-set(url("../assets/images/hero-dr-thiago-pet.jpg") 1x);
+      image-set(url("../assets/images/hero-dr-thiago-real.jpg") 1x);
     background-position: 62% center;
   }
 
@@ -882,8 +1015,13 @@ textarea {
     grid-template-columns: 1fr;
   }
 
-  .testimonial-grid {
+  .testimonial-grid,
+  .gallery-grid {
     grid-template-columns: 1fr;
+  }
+
+  .floating-whatsapp {
+    display: none;
   }
 }
 
@@ -917,8 +1055,8 @@ textarea {
     min-height: 560px;
     background:
       linear-gradient(0deg, rgba(8, 47, 85, 0.96) 0%, rgba(8, 47, 85, 0.9) 58%, rgba(8, 47, 85, 0.55) 100%),
-      image-set(url("../assets/images/hero-dr-thiago-pet.jpg") 1x);
-    background-position: 63% center;
+      image-set(url("../assets/images/hero-dr-thiago-real.jpg") 1x);
+    background-position: 58% center;
   }
 
   .hero-content {
@@ -988,6 +1126,22 @@ textarea {
 
   .lead-form {
     padding: 20px;
+  }
+
+  .contact-actions {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .contact-actions .btn {
+    width: 100%;
+  }
+
+  .gallery-grid figure,
+  .gallery-grid img,
+  .gallery-feature,
+  .gallery-feature img {
+    min-height: 310px;
   }
 
   .footer-bottom {

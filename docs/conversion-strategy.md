@@ -1,56 +1,18 @@
 # Estratégia de conversão
 
-Esta página de conversão foi estruturada para transformar tráfego frio ou indicação social em contato pelo WhatsApp, reduzindo dúvidas do tutor e aumentando a percepção de confiança.
+Esta página de conversão foi atualizada para transformar visitantes em contatos pelo WhatsApp, usando informações reais da Pet Clínica Veterinária do Dr. Thiago Mello e uma experiência simples para tutores de pets.
 
-## 1. Primeira dobra com proposta clara
+## 1. Contato real e baixa fricção
 
-O hero apresenta rapidamente:
+O WhatsApp `+55 35 8831-0948` foi aplicado nos botões principais, no formulário, na seção de contato, no CTA de urgência, no rodapé e no botão flutuante.
 
-- Quem atende: Pet Clínica Veterinária do Dr. Thiago Mello.
-- Quem é atendido: pets de pequeno e médio porte.
-- Por que confiar: clínica médica cirúrgica, oncologia e cuidado humanizado.
-- Próxima ação: agendar pelo WhatsApp.
+A mensagem padrão usada nos links diretos é:
 
-O objetivo é evitar que o visitante precise rolar a página para entender a oferta.
+`Olá, vim pelo site e gostaria de agendar um atendimento para meu pet.`
 
-## 2. Autoridade antes da lista de serviços
+## 2. Formulário que direciona para WhatsApp
 
-A página mostra o Dr. Thiago Mello e destaca as duas pós-graduações:
-
-- Clínica Médica Cirúrgica.
-- Oncologia.
-
-Isso diferencia a clínica de páginas genéricas e dá base para a decisão do tutor, especialmente em casos que exigem mais confiança.
-
-## 3. Serviços organizados por intenção de busca
-
-Os cards de serviços foram escritos com linguagem comercial, mas segura:
-
-- Consulta clínica.
-- Vacinação e prevenção.
-- Check-up e exames.
-- Cuidados ambulatoriais.
-- Acompanhamento cirúrgico.
-- Avaliação oncológica.
-- Filhotes e idosos.
-- Pele, ouvido e sintomas comuns.
-
-A copy evita promessas de cura, diagnóstico garantido ou estrutura não confirmada.
-
-## 4. Redução de objeções
-
-A seção de diferenciais responde a dúvidas implícitas do tutor:
-
-- Serei bem atendido?
-- Meu pet será avaliado com calma?
-- Vou entender o que está acontecendo?
-- A conduta será responsável?
-
-Isso prepara o visitante para preencher o formulário ou chamar no WhatsApp.
-
-## 5. Captura de lead com baixa fricção
-
-O formulário pede apenas dados úteis:
+O formulário continua estático, sem sistema de retaguarda, mas agora valida os campos obrigatórios e abre uma conversa no WhatsApp com os dados preenchidos:
 
 - Nome do tutor.
 - Nome do pet.
@@ -58,34 +20,69 @@ O formulário pede apenas dados úteis:
 - Tipo de atendimento desejado.
 - Mensagem opcional.
 
-Ao enviar, o JavaScript monta uma mensagem pronta para WhatsApp. Assim, o site funciona sem sistema de retaguarda e já simula um fluxo comercial utilizável.
+Esse fluxo reduz atrito porque o tutor não precisa escrever tudo de novo no aplicativo.
 
-## 6. Urgência com responsabilidade
+## 3. Endereço real e mapa
 
-A seção de sintomas preocupantes incentiva contato rápido sem prometer pronto-socorro, cura ou resultado. A linguagem orienta o tutor a procurar atendimento veterinário o quanto antes.
+O endereço oficial foi incluído na seção de contato, no rodapé e nos metadados estruturados:
 
-## 7. Prova social sem avaliações falsas
+`R. Antônio Carlos Pinheiro Alcântara, 275 - Mediterrane 3, São Sebastião do Paraíso - MG, 37950-000`
 
-A seção de depoimentos foi criada com espaços provisórios explícitos. Ela mostra onde as avaliações reais devem entrar, sem inventar clientes ou experiências.
+A página também tem o botão `Ver localização no mapa`, apontando para uma busca do Google Maps com o endereço completo.
 
-## 8. Otimização de busca local preparada
+## 4. Instagram real
 
-A estrutura inclui:
+O Instagram oficial informado foi aplicado como link externo:
 
-- Título e meta descrição em português.
-- Metadados básicos para compartilhamento em redes sociais.
-- Headings semânticos.
-- Termos relevantes: clínica veterinária, pets de pequeno e médio porte, atendimento clínico, cirurgia, oncologia e Dr. Thiago Mello.
-- Espaço provisório para cidade e bairro, sem afirmar uma localização não confirmada.
+`https://www.instagram.com/thiigmello?igsh=bW01bGVtcHB3ZDZn`
 
-## Próximos passos comerciais
+Ele aparece na área de contato e no rodapé, reforçando prova de presença digital.
 
-Para tornar a página pronta para publicação, recomenda-se inserir:
+## 5. Fotos e percepção de confiança
 
-- WhatsApp oficial.
-- Endereço e bairro.
-- Horários de atendimento.
-- Instagram oficial.
-- Depoimentos autorizados.
-- Fotos reais profissionais.
-- Política de privacidade, se o formulário passar a armazenar dados.
+As novas fotos foram incorporadas de forma seletiva:
+
+- Foto do Dr. Thiago com pet no hero e na seção sobre.
+- Artes institucionais na galeria para reforçar cuidado, prevenção, nutrição, descanso e orientação ao tutor.
+- Recorte da arte de banho e tosa sem exibir telefone antigo.
+
+A intenção é tornar a página menos genérica e mais conectada aos materiais reais da clínica.
+
+## 6. Autoridade profissional
+
+A página mantém destaque para as duas pós-graduações:
+
+- Clínica Médica Cirúrgica.
+- Oncologia.
+
+Essa informação aparece antes da lista de serviços para gerar confiança cedo.
+
+## 7. Chamadas para ação sem exagero
+
+Os CTAs foram repetidos em pontos estratégicos:
+
+- Cabeçalho.
+- Hero.
+- Área de agendamento.
+- Orientação de urgência.
+- CTA final.
+- Rodapé.
+- Botão flutuante de WhatsApp.
+
+A repetição facilita o contato sem prometer resultado médico ou criar urgência artificial.
+
+## 8. Depoimentos ilustrativos identificados
+
+Os depoimentos são fictícios e aparecem claramente como exemplos ilustrativos para apresentação comercial do site. Antes da publicação, devem ser substituídos por avaliações reais autorizadas.
+
+## 9. Otimização de busca local
+
+A página agora menciona São Sebastião do Paraíso - MG, o endereço real, atendimento clínico, acompanhamento cirúrgico, avaliação oncológica, pets de pequeno e médio porte e o nome do Dr. Thiago Mello de forma natural.
+
+## Pendências de publicação
+
+- Validar se o WhatsApp informado funciona exatamente como `+55 35 8831-0948`.
+- Confirmar horários de atendimento.
+- Revisar os textos com o Dr. Thiago.
+- Substituir depoimentos fictícios por avaliações reais autorizadas.
+- Publicar em domínio e hospedagem definitivos.

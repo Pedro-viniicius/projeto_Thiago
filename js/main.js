@@ -1,4 +1,4 @@
-const WHATSAPP_NUMBER = "5500000000000";
+const WHATSAPP_NUMBER = "553588310948";
 
 const menuToggle = document.querySelector("[data-menu-toggle]");
 const nav = document.querySelector("[data-nav]");
@@ -27,6 +27,11 @@ if (form) {
   form.addEventListener("submit", (event) => {
     event.preventDefault();
 
+    if (!form.checkValidity()) {
+      form.reportValidity();
+      return;
+    }
+
     const data = new FormData(form);
     const tutor = String(data.get("tutor") || "").trim();
     const pet = String(data.get("pet") || "").trim();
@@ -35,7 +40,7 @@ if (form) {
     const mensagem = String(data.get("mensagem") || "").trim();
 
     const lines = [
-      "Olá, gostaria de agendar um atendimento na Pet Clínica Veterinária.",
+      "Olá, vim pelo site e gostaria de agendar um atendimento para meu pet.",
       "",
       `Nome do tutor: ${tutor}`,
       `Nome do pet: ${pet}`,
